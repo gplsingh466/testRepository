@@ -12,6 +12,6 @@ public class CreateCustomer {
 							.formParam("name", "test001")
 							.post("https://api.stripe.com/v1/customers");
 		response.prettyPrint();
-		System.out.println("Response status code: "+response.getStatusCode());
+		System.out.println("Response status code-> "+response.getStatusCode());
 }
 }
